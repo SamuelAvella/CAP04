@@ -11,7 +11,7 @@ public class Ejercicio8 {
         if (media>=9) {
             System.out.printf("La media de %.2f %.2f y %.2f es %.2f, es decir, un sobresaliente.\n",primera,segunda,tercera,media);
         }
-        if (media<=7&media>=8) {
+        if (media<=8&media>=7) {
             System.out.printf("La media de %.2f %.2f y %.2f es %.2f, es decir, un notable.\n",primera,segunda,tercera,media);
         }     
         if (media>=6&media<7) {
