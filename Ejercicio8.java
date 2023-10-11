@@ -14,10 +14,10 @@ public class Ejercicio8 {
             if (media<=7&media>=8) {
                 System.out.printf("La media de %.2f %.2f y %.2f es %.2f, es decir, notable.\n",primera,segunda,tercera,media);
             } else {
-                if (media==6) {
+                if (media>=6&media<7) {
                     System.out.printf("La media de %.2f %.2f y %.2f es %.2f, es decir, bien.\n",primera,segunda,tercera,media);
                 } else {
-                    if (media==5) {
+                    if (media>=5&media<6) {
                         System.out.printf("La media de %.2f %.2f y %.2f es %.2f, es decir, suficiente.\n",primera,segunda,tercera,media);
                     } else {
                         System.out.printf("La media de %.2f %.2f y %.2f es %.2f, es decir, insuficiente.\n",primera,segunda,tercera,media);
