@@ -31,7 +31,8 @@ public class Ejerciciorepaso {
         longape++;
         double IMC1 = peso1/(altura1*altura1);
         double IMC2 = peso2/(altura2*altura2);
-        System.out.printf("%-"+longnom+"s"+"%-"+longape+"s %-7s %-11s %-11s %-7s\n","Nombre","Apellido","Edad","Altura","Peso","IMC");
+        System.out.println(" ");
+        System.out.printf("%-"+longnom+"s"+"%-"+longape+"s %-7s %-11s %-11s %-7s\n","Nombre"," Apellido"," Edad","Altura","Peso","IMC");
         System.out.printf("-----------------------------------------------------------------\n");
         System.out.printf("%-"+longnom+"s %-"+longape+"s %-6d %-10.2f %-10.2f %-6.2f\n",nombre1,apellidos1,edad1,altura1,peso1,IMC1);
         System.out.printf("%-"+longnom+"s %-"+longape+"s %-6d %-10.2f %-10.2f %-6.2f\n",nombre2,apellidos2,edad2,altura2,peso2,IMC2);
